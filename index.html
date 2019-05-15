@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BlackJack</title>
+    <link rel = "stylesheet" type = "text/css" href = "main.css" />
+  </head>
+  <body>
+    <div class="game">
+      <h1>BlackJack</h1>
+
+      <!-- button html -->
+      <input type="button" class="btn" value="start" onclick="start()" />
+      <input type="button" class="btn" value="hit me" onclick="hitMe()" />
+      <input type="button" class="btn" value="stay" onclick="stay()" />
+
+      <!-- player html -->
+      <div id="deck" class="deck">
+        <div class="card" id="deckCount">52</div>
+        <div class="status" id="status"></div>
+      </div>
+
+      <!-- clear deck html -->
+      <div class="clear"></div>
+
+      <!-- JS link -->
+      <script src="main.js" async defer></script>
+
+    </div>
+  </body>
+</html>

@@ -68,7 +68,7 @@ h1 {
 }
 
 /* media queries */
-@media only screen and (min-width: 414px) and (max-width: 767px) {
+@media only screen and (min-width: 414px) and (max-width: 896px) {
 	.card {
 		width: 30%;
 		height: 8.85em;
@@ -79,5 +79,9 @@ h1 {
 		font-size: 2em;
 		align-content: center;
 		text-align: center;
+	}
+
+	body {
+		background-color: black;
 	}
 }

@@ -6,6 +6,9 @@ body {
 	background-color: #58D68D;
   max-width: 100%;
   overflow-x: hidden;
+  -webkit-user-select: none; /* turn off text selction */
+	-webkit-tap-highlight-color: transparent; /* turn highlighting to transparent */
+	-webkit-touch-callout: none; /* turn off callouts */
 }
 
 .deck {

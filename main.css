@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #58D68D;
+	background-color: #242525;
   max-width: 100%;
   overflow-x: hidden;
   -webkit-user-select: none; /* turn off text selction */
@@ -16,7 +16,7 @@ body {
 	border-radius: 1em;
 	justify-content: center;
 	text-align: center;
-	color:white;
+	color: white;
 }
 
 #deck {

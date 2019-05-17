@@ -70,8 +70,8 @@ h1 {
 /* media queries */
 @media only screen and (min-width: 414px) and (max-width: 767px) {
 	.card {
-		width: 9em;
-		height: 12em;
+		width: 30%;
+		height: 8.85em;
 	}
 
 	.btn {

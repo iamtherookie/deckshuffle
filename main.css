@@ -11,7 +11,7 @@ body {
 .deck {
 	width: 100%;
 
-	
+
 	padding: 10px;
 	border-radius: 1em;
 	justify-content: center;
@@ -54,4 +54,12 @@ h1 {
 	margin: 10px;
 	display:inline-block;
 	text-decoration: none;
+}
+
+/* media queries */
+@media screen and (max-width: 896px) {
+	.card {
+		width: 12.8em;
+		height: 17.7em;
+	}
 }
